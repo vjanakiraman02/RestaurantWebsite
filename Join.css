@@ -1,0 +1,83 @@
+/*
+Valli Janakiraman
+IT202 
+Semester Project Phase 2
+Nov. 11, 2022
+*/
+fieldset
+{
+    border: solid 7pt;
+    border-color: rgb(235, 115, 75);
+    padding-left: 1em;
+    padding-bottom: 1.2em;
+    padding-right: 1em;
+    padding-top: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/join.jpeg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+legend
+{
+text-align: center;
+font-style: italic;
+border: double 6pt;
+background-color: rgb(253, 236, 215);
+
+}
+.button
+{
+    margin-left: 5em;
+    background-color:  rgb(253, 236, 215);
+    border-color: rgb(255, 255, 255);
+    font-style: italic;
+    color: rgb(235, 115, 75);
+    box-shadow: 3px 3px 3px rgb(218, 129, 119);
+    border-radius: 12%;
+
+}
+.button:hover
+{
+    color: rgb(93, 28, 6);
+}
+td
+{
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+}
+
+table
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(253, 236, 215);
+    border: double 7pt rgb(235, 115, 75);
+
+}
+main
+{
+    background-color: rgb(253, 236, 215);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(235, 115, 75);
+    font-style: italic;
+    font-size: large;
+
+}
+h1
+{
+    text-align: center;
+}
+input:invalid
+{
+    box-shadow: 0 0 5px 1px red;
+}

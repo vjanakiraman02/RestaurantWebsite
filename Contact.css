@@ -1,0 +1,54 @@
+/*
+Valli Janakiraman
+IT202 
+Semester Project Phase 2
+Nov. 11, 2022
+*/
+table
+{
+    border: double 7pt black;
+    border-color: rgb(235, 115, 75);
+    padding-left: 1em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    padding-top: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(246, 236, 232);
+    display: flex;
+    justify-content: center;
+}
+td
+{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.links:visited 
+{
+    color: rgb(204, 75, 32);;
+}
+.links:hover
+{
+    color: rgb(93, 28, 6);;
+}
+#top:visited
+{
+    color: rgb(235, 115, 75);
+}
+body
+{
+    background-image:
+    url(https://handluggageonly.co.uk/wp-content/uploads/2015/05/Hand-Luggage-Only-7.jpg);
+}
+main
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(235, 115, 75);
+    font-style: italic;
+    font-size: large;
+}
+
