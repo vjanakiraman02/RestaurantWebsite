@@ -1,0 +1,108 @@
+<!--
+Valli Janakiraman
+IT202 
+Semester Project Phase 2
+Nov. 11, 2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/Create.css">
+    <link id = "icon" rel="icon" href="images/favicon3.png">
+    <script type="text/javascript" lang="javascript" src="JS/Create.js"></script>
+</head>
+<body>
+    <a id="top"></a>
+    <main>
+    <div class="intro">
+        <header>
+            
+            <a href="Home.html">
+                <figure>
+                    <img class="logo" src="images/logo.png" alt="logo">
+                </figure>
+            </a>
+
+            <h1 class = "heading">Paleo</h1>
+
+            <nav>
+                <a href="Home.html" class="explore"> Home</a>
+                <a href="Create.html" class="explore"> Create</a>
+                <a href="Contact.html" class="explore"> Contact</a>
+                <a href="About.html" class="explore"> About</a>
+            </nav>
+        </header>
+    </div>
+
+    <div>
+        <h1> Create Your Own!</h1>
+        <form id="createform" method="post" action = "http://www.randyconnolly.com/tests/process.php ">
+            <fieldset>
+                <legend> Make Your Dish!</legend>
+                <table id = "createTable" name = "createTable">
+                    <tr>
+                    <td> <label class = "Category">Category: </label> </td>
+                        <td>
+                            <select name= "dishCategory" required>
+                                <option>Breakfast</option>
+                                <option>Lunch</option>
+                                <option>Dinner</option>
+                                <option>Vegetarian</option>
+                                <option>Non-vegetarian</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Dish Code: </label></td>
+                        <td><input type="text" id ="code" name="code" pattern = "[A-Za-z0-9]{3,10}" 
+                            maxlength = "10"  placeholder="abc123" required></td>
+                    </tr>
+                <tr>
+                    <td><label>Dish Name: </label></td>
+                    <td><input type="text" name="name" placeholder="pizza" minlength ="3" 
+                        maxlength="255" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="description"> Dish Description: </label></td>
+                    <td><textarea name="description" id="description" minlength = "3"
+                        maxlength = "255"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label>Dish price: </label></td>
+                    <td><input type= "any" name="price" minlength ="1" pattern= "^[0-9]{1,10}((\.)[0-9]{0,2})$" required></td>
+                </tr>
+
+                <tr>
+                    <td><input class = "button" type="reset"></td>
+                    <td><input class = "button" type="submit"></td>
+                </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    </main>
+    
+    <footer>
+        <a href="#top" class="links">Go to top</a>
+        <h6>
+            Valli Janakiraman
+            IT202 
+            Semester Project Phase 2
+            Nov. 11, 2022
+            </h6>
+    </footer>
+</body>
+</html>
+
+
+
+
+
